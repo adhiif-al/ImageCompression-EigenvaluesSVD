@@ -97,19 +97,6 @@ Dengan membatasi $k$, ukuran penyimpanan data akan berkurang secara drastis (kom
 
 ---
 
-
----
-
-## 📄 Lisensi
-
-Proyek ini dikembangkan untuk keperluan **Project Based Learning 1 | Aljabar Linear**.  
-FAUSTINA HELENA AFNY		L0125040 </br>
-TSANIYA NURFADHILAH		L0125117 </br>
-ALYAA NADHIIFAH			L0125141 </br>
-
-
----
-
 <p align="center">
   <i>Face Recognition System © 2025 — Powered by PCA & Eigenface</i> 
 </p>
