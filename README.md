@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center"> Compressify: PCA & SVD Image Compression</h1>
+  <h1 align="center"> CompressPPP: PCA & SVD Image Compression</h1>
 
   <p align="center">
     Aplikasi web untuk kompresi citra digital berbasis <b>Principal Component Analysis (PCA)</b> dan <b>Singular Value Decomposition (SVD)</b>.
@@ -46,7 +46,7 @@
 
 Proyek ini dikembangkan untuk memenuhi **Tugas Project (Tugas ke-2) Mata Kuliah Aljabar Linear Kelas D** pada Program Studi Informatika, Fakultas Teknologi Informasi dan Sains Data, Universitas Sebelas Maret (UNS).
 
-**Compressify** adalah aplikasi web yang mendemonstrasikan bagaimana konsep aljabar linear, khususnya faktorisasi matriks melalui *Singular Value Decomposition* (SVD), dapat diaplikasikan pada dunia nyata untuk mereduksi ukuran (kompresi) sebuah citra digital tanpa kehilangan struktur visual utamanya.
+**CompressPPP** adalah aplikasi web yang mendemonstrasikan bagaimana konsep aljabar linear, khususnya faktorisasi matriks melalui *Singular Value Decomposition* (SVD), dapat diaplikasikan pada dunia nyata untuk mereduksi ukuran (kompresi) sebuah citra digital tanpa kehilangan struktur visual utamanya.
 
 ##  Landasan Teori
 
