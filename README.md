@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150?text=Compressify+Logo" alt="Logo" width="120" height="120">
   <h1 align="center"> Compressify: PCA & SVD Image Compression</h1>
 
   <p align="center">
@@ -98,6 +97,23 @@ Dengan membatasi $k$, ukuran penyimpanan data akan berkurang secara drastis (kom
 
 ---
 
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dikembangkan untuk keperluan **Project Based Learning 1 | Aljabar Linear**.  
+FAUSTINA HELENA AFNY		L0125040 </br>
+TSANIYA NURFADHILAH		L0125117 </br>
+ALYAA NADHIIFAH			L0125141 </br>
+
+
+---
+
+<p align="center">
+  <i>Face Recognition System © 2025 — Powered by PCA & Eigenface</i> 
+</p>
+
 ##  Struktur Direktori
 
 Sesuai pedoman spesifikasi tugas, struktur repositori/folder diatur sebagai berikut:
@@ -115,3 +131,20 @@ NIM_Terkecil/                     # Folder utama proyek (5 digit terakhir NIM)
     ├── image_bf7f46.png          # Contoh citra uji 1
     ├── foto_pemandangan.jpg      # Contoh citra uji 2
     └── sample_logo.bmp           # Contoh citra uji 3
+```
+---
+
+## 📄 Lisensi
+
+Proyek ini dikembangkan untuk keperluan **Project Based Learning 1 | Aljabar Linear**.  
+FAUSTINA HELENA AFNY		L0125040 </br>
+TSANIYA NURFADHILAH		L0125117 </br>
+ALYAA NADHIIFAH			L0125141 </br>
+
+
+---
+
+<p align="center">
+  <i>Image Compression Website © 2025 — Powered by PCA & SVD</i> 
+</p>
+
