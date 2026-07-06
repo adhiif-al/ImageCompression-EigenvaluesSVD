@@ -1,8 +1,8 @@
 <div align="center">
-  <h1 align="center"> CompressPPP: PCA & SVD Image Compression</h1>
+  <h1 align="center"> PressIMG: PCA & SVD Image Compression</h1>
 
   <p align="center">
-    Aplikasi web untuk kompresi citra digital berbasis <b>Principal Component Analysis (PCA)</b> dan <b>Singular Value Decomposition (SVD)</b>.
+    Web untuk kompresi citra digital berbasis <b>Principal Component Analysis (PCA)</b> dan <b>Singular Value Decomposition (SVD)</b>.
     <br />
     <a href="#-dokumentasi-dan-penggunaan"><strong>Pelajari lebih lanjut »</strong></a>
     <br />
@@ -46,7 +46,7 @@
 
 Proyek ini dikembangkan untuk memenuhi **Tugas Project (Tugas ke-2) Mata Kuliah Aljabar Linear Kelas D** pada Program Studi Informatika, Fakultas Teknologi Informasi dan Sains Data, Universitas Sebelas Maret (UNS).
 
-**CompressPPP** adalah aplikasi web yang mendemonstrasikan bagaimana konsep aljabar linear, khususnya faktorisasi matriks melalui *Singular Value Decomposition* (SVD), dapat diaplikasikan pada dunia nyata untuk mereduksi ukuran (kompresi) sebuah citra digital tanpa kehilangan struktur visual utamanya.
+**PressIMG** adalah aplikasi web yang mendemonstrasikan bagaimana konsep aljabar linear, khususnya faktorisasi matriks melalui *Singular Value Decomposition* (SVD), dapat diaplikasikan pada dunia nyata untuk mereduksi ukuran (kompresi) sebuah citra digital tanpa kehilangan struktur visual utamanya.
 
 ##  Landasan Teori
 
@@ -118,7 +118,6 @@ NIM_Terkecil/                     # Folder utama proyek (5 digit terakhir NIM)
 ---
 
 <p align="center">
-Proyek ini dikembangkan untuk keperluan **Project Based Learning 1 | Aljabar Linear**.  
 FAUSTINA HELENA AFNY		L0125040 </br>
 TSANIYA NURFADHILAH		L0125117 </br>
 ALYAA NADHIIFAH			L0125141 </br>
