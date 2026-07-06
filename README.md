@@ -26,34 +26,34 @@
 <details open>
   <summary><b> Daftar Isi</b></summary>
   <ol>
-    <li><a href="#-tentang-proyek">Tentang Proyek</a></li>
-    <li><a href="#-landasan-teori">Landasan Teori (PCA & SVD)</a></li>
-    <li><a href="#-fitur-utama">Fitur Utama</a></li>
-    <li><a href="#-teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
-    <li><a href="#-struktur-direktori">Struktur Direktori</a></li>
-    <li><a href="#-prasyarat-dan-instalasi">Prasyarat dan Instalasi</a></li>
-    <li><a href="#-cara-penggunaan">Cara Penggunaan</a></li>
-    <li><a href="#-hasil-eksperimen-dan-analisis">Hasil Eksperimen & Analisis</a></li>
-    <li><a href="#-tangkapan-layar">Tangkapan Layar (Screenshots)</a></li>
-    <li><a href="#-referensi">Referensi</a></li>
-    <li><a href="#-kontributor-tim">Kontributor Tim</a></li>
+    <li><a href="#tentang-proyek">Tentang Proyek</a></li>
+    <li><a href="#landasan-teori">Landasan Teori (PCA & SVD)</a></li>
+    <li><a href="#fitur-utama">Fitur Utama</a></li>
+    <li><a href="#teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
+    <li><a href="#struktur-direktori">Struktur Direktori</a></li>
+    <li><a href="#prasyarat-dan-instalasi">Prasyarat dan Instalasi</a></li>
+    <li><a href="#cara-penggunaan">Cara Penggunaan</a></li>
+    <li><a href="#hasil-eksperimen-dan-analisis">Hasil Eksperimen & Analisis</a></li>
+    <li><a href="#tangkapan-layar">Tangkapan Layar (Screenshots)</a></li>
+    <li><a href="#referensi">Referensi</a></li>
+    <li><a href="#kontributor-tim">Kontributor Tim</a></li>
   </ol>
 </details>
 
 ---
 
-##  Tentang Proyek
+## Tentang Proyek
 
 Proyek ini dikembangkan untuk memenuhi **Tugas Project (Tugas ke-2) Mata Kuliah Aljabar Linear Kelas D** pada Program Studi Informatika, Fakultas Teknologi Informasi dan Sains Data, Universitas Sebelas Maret (UNS).
 
 **PressIMG** adalah aplikasi web yang mendemonstrasikan bagaimana konsep aljabar linear, khususnya faktorisasi matriks melalui *Singular Value Decomposition* (SVD), dapat diaplikasikan pada dunia nyata untuk mereduksi ukuran (kompresi) sebuah citra digital tanpa kehilangan struktur visual utamanya.
 
-##  Landasan Teori
+## Landasan Teori
 
 Kompresi citra pada aplikasi ini menggunakan pendekatan **Principal Component Analysis (PCA)** yang diimplementasikan melalui **Singular Value Decomposition (SVD)**.
 
 ### 1. Representasi Citra sebagai Matriks
-Sebuah citra digital beresolusi $M \times N$ piksel direpresentasikan sebagai matriks. Pada citra berwarna (RGB), terdapat 3 matriks dua dimensi terpisah untuk komponen *Red*, *Green*, dan *Blue*. 
+Sebuah citra digital beresolusi $M \times N$ piksel direpresentasikan sebagai matriks. Pada citra berwarna (RGB), terdapat 3 matriks dua dimensi terpisah untuk komponen *Red*, *Green*, dan *Blue*.
 
 ### 2. Singular Value Decomposition (SVD)
 SVD adalah teknik memfaktorkan matriks $A$ (berukuran $m \times n$) menjadi tiga buah matriks:
@@ -72,18 +72,18 @@ Dengan membatasi $k$, ukuran penyimpanan data akan berkurang secara drastis (kom
 
 ---
 
-##  Fitur Utama
+## Fitur Utama
 
--  **Slider Kompresi Dinamis**: Tentukan rasio nilai singular ($k$) yang ingin dipertahankan dengan *slider* (1% hingga 99%).
--  **Pemrosesan Multi-Channel**: Mendukung kompresi citra berwarna (RGB), Grayscale (L), serta menjaga transparansi (RGBA/Alpha Channel).
--  **Asynchronous Processing**: Pemrosesan citra dilakukan di *backend* (Python) tanpa membuat *browser* (UI) menjadi *freeze* atau *hang*.
--  **Statistik Real-time**: Menampilkan metrik seperti *runtime* komputasi (ms), jumlah nilai singular ($k$), dan rasio data yang dikompresi.
--  **Multi-Format Export**: Unduh hasil kompresi ke format PNG, JPEG, BMP, atau WEBP.
--  **Komparasi Side-by-Side**: Bandingkan langsung gambar *original* dan hasil *compressed* dalam satu layar.
+- **Slider Kompresi Dinamis**: Tentukan rasio nilai singular ($k$) yang ingin dipertahankan dengan *slider* (1% hingga 99%).
+- **Pemrosesan Multi-Channel**: Mendukung kompresi citra berwarna (RGB), Grayscale (L), serta menjaga transparansi (RGBA/Alpha Channel).
+- **Asynchronous Processing**: Pemrosesan citra dilakukan di *backend* (Python) tanpa membuat *browser* (UI) menjadi *freeze* atau *hang*.
+- **Statistik Real-time**: Menampilkan metrik seperti *runtime* komputasi (ms), jumlah nilai singular ($k$), dan rasio data yang dikompresi.
+- **Multi-Format Export**: Unduh hasil kompresi ke format PNG, JPEG, BMP, atau WEBP.
+- **Komparasi Side-by-Side**: Bandingkan langsung gambar *original* dan hasil *compressed* dalam satu layar.
 
 ---
 
-##  Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Backend (Algoritma & Server)
 * **[Python 3](https://www.python.org/)** - Bahasa pemrograman utama.
@@ -97,7 +97,7 @@ Dengan membatasi $k$, ukuran penyimpanan data akan berkurang secara drastis (kom
 
 ---
 
-##  Struktur Direktori
+## Struktur Direktori
 
 Sesuai pedoman spesifikasi tugas, struktur repositori/folder diatur sebagai berikut:
 
@@ -105,6 +105,7 @@ Sesuai pedoman spesifikasi tugas, struktur repositori/folder diatur sebagai beri
 NIM_Terkecil/                     # Folder utama proyek (5 digit terakhir NIM)
 ├── doc/                          # Berisi dokumentasi
 │   ├── Laporan_Tubes2_Alin.pdf   # File Laporan Tugas (Bab 1 - 5)
+│   ├── screenshots/              # Tangkapan layar aplikasi
 │   └── README.md                 # Dokumentasi ini
 ├── src/                          # Berisi Source Code Program
 │   ├── app.py                    # Backend Flask & Fungsi SVD
@@ -115,17 +116,98 @@ NIM_Terkecil/                     # Folder utama proyek (5 digit terakhir NIM)
     ├── foto_pemandangan.jpg      # Contoh citra uji 2
     └── sample_logo.bmp           # Contoh citra uji 3
 ```
+
 ---
 
+## Prasyarat dan Instalasi
+
+Pastikan perangkat sudah terpasang **Python 3.9+** dan **pip**. Ikuti langkah berikut untuk menjalankan proyek secara lokal:
+
+```bash
+# 1. Clone repository
+git clone https://github.com/username/PressIMG.git
+cd PressIMG/src
+
+# 2. (Opsional) Buat virtual environment
+python -m venv venv
+source venv/bin/activate      # Linux/Mac
+venv\Scripts\activate         # Windows
+
+# 3. Install dependensi
+pip install flask numpy pillow
+
+# 4. Jalankan server Flask
+python app.py
+```
+
+Setelah server berjalan, buka browser dan akses `http://127.0.0.1:5000` (atau port yang tertera di terminal).
+
+---
+
+## Cara Penggunaan
+
+1. **Unggah Gambar** — Klik area unggah atau *drag-and-drop* citra (PNG, JPG, BMP, atau WEBP) yang ingin dikompresi.
+2. **Atur Tingkat Kompresi** — Geser *slider* untuk menentukan persentase nilai singular ($k$) yang dipertahankan (1%–99%), atau pilih mode *Auto*.
+3. **Pilih Format Keluaran** — Tentukan format unduhan hasil kompresi (PNG, JPEG, BMP, atau WEBP).
+4. **Proses Kompresi** — Klik tombol **Kompresi Gambar**; proses SVD akan berjalan secara *asynchronous* di backend.
+5. **Bandingkan & Unduh** — Lihat hasil perbandingan *original* vs *compressed* secara *side-by-side* beserta statistik (runtime, nilai $k$, dan rasio kompresi), lalu unduh hasilnya.
+
+---
+
+## Hasil Eksperimen & Analisis
+
+Pengujian dilakukan pada beberapa jenis citra (foto beresolusi tinggi, ilustrasi, dan logo sederhana) dengan variasi nilai $k$. Secara umum:
+
+* Semakin kecil nilai $k$ (persentase kompresi tinggi), ukuran file semakin kecil namun detail visual (terutama tekstur halus) semakin berkurang.
+* Citra dengan banyak area warna solid/seragam (misalnya logo) dapat dikompresi lebih agresif tanpa penurunan kualitas visual yang signifikan dibanding foto dengan banyak detail/noise.
+* Waktu komputasi (*runtime*) SVD berbanding lurus dengan resolusi citra, namun tetap berada pada rentang puluhan milidetik untuk citra berukuran wajar berkat optimasi NumPy.
+
+Detail lengkap analisis kuantitatif (grafik rasio kompresi vs kualitas, perbandingan runtime, dsb.) dapat dilihat pada `doc/Laporan_Tubes2_Alin.pdf`.
+
+---
+
+## Tangkapan Layar
+
+Berikut beberapa tangkapan layar antarmuka dan hasil pengujian aplikasi **PressIMG**:
+
+| Tampilan | Keterangan |
+|---|---|
+| `PressIMG` | Halaman utama (landing page) aplikasi PressIMG. |
+| `process` | Tampilan proses unggah citra dan pengaturan parameter kompresi. |
+| `compress` | Tampilan panel kompresi dengan slider tingkat kompresi. |
+| `CaraKerja` | Halaman penjelasan algoritma SVD untuk kompresi gambar. |
+| `about` | Halaman "Tentang" berisi ringkasan proyek dan tim kontributor. |
+| `ironman` | Contoh hasil kompresi pada citra dengan banyak detail (ilustrasi). |
+| `city` | Contoh hasil kompresi pada citra pemandangan kota (landscape). |
+
+> Berkas gambar tangkapan layar dapat ditempatkan pada folder `doc/screenshots/` dengan nama sesuai tabel di atas (contoh: `doc/screenshots/PressIMG.png`) agar dapat ditautkan langsung di README ini, misalnya:
+>
+> ```markdown
+> ![PressIMG](doc/screenshots/PressIMG.png)
+> ```
+
+---
+
+## Referensi
+
+1. Strang, G. (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley-Cambridge Press.
+2. Kalman, D. (1996). A Singularly Valuable Decomposition: The SVD of a Matrix. *The College Mathematics Journal*, 27(1), 2–23.
+3. Dokumentasi resmi [NumPy Linear Algebra (numpy.linalg.svd)](https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html).
+4. Dokumentasi resmi [Pillow (PIL Fork)](https://pillow.readthedocs.io/).
+5. Dokumentasi resmi [Flask](https://flask.palletsprojects.com/).
+
+---
+
+## Kontributor Tim
+
 <p align="center">
-FAUSTINA HELENA AFNY		L0125040 </br>
-TSANIYA NURFADHILAH		L0125117 </br>
-ALYAA NADHIIFAH			L0125141 </br>
+FAUSTINA HELENA AFNY&nbsp;&nbsp;&nbsp;&nbsp;L0125040 </br>
+TSANIYA NURFADHILAH&nbsp;&nbsp;&nbsp;&nbsp;L0125117 </br>
+ALYAA NADHIIFAH&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L0125141 </br>
 </p>
 
 ---
 
 <p align="center">
-  <i>Image Compression Website © 2025 — Powered by PCA & SVD</i> 
+  <i>Image Compression Website © 2025 — Powered by PCA & SVD</i>
 </p>
-
