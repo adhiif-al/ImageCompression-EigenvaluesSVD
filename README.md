@@ -180,12 +180,6 @@ Berikut beberapa tangkapan layar antarmuka dan hasil pengujian aplikasi **PressI
 | `ironman` | Contoh hasil kompresi pada citra dengan banyak detail (ilustrasi). |
 | `city` | Contoh hasil kompresi pada citra pemandangan kota (landscape). |
 
-> Berkas gambar tangkapan layar dapat ditempatkan pada folder `doc/screenshots/` dengan nama sesuai tabel di atas (contoh: `doc/screenshots/PressIMG.png`) agar dapat ditautkan langsung di README ini, misalnya:
->
-> ```markdown
-> ![PressIMG](doc/screenshots/PressIMG.png)
-> ```
-
 ---
 
 ## Referensi
