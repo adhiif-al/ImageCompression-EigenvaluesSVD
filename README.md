@@ -192,7 +192,7 @@ Berikut beberapa tangkapan layar antarmuka dan hasil pengujian aplikasi **PressI
 
 ---
 
-## Kontributor Tim
+## Kelompok 5
 
 <p align="center">
 FAUSTINA HELENA AFNY&nbsp;&nbsp;&nbsp;&nbsp;L0125040 </br>
